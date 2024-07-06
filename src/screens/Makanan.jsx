@@ -11,15 +11,15 @@ const promos = [
   },
   {
     id: '2',
-    title: 'Beli 1 Gratis 1 di Restoran B',
-    description: 'Beli 1 makanan dan dapatkan 1 makanan gratis di Restoran B.',
-    image: 'https://via.placeholder.com/150',
+    title: 'Nikmati diskonnya sekarang',
+    description: 'Beli 2 gratis 1',
+    image: 'https://www.blibli.com/friends-backend/wp-content/uploads/2023/08/COVER.jpg',
   },
   {
     id: '3',
-    title: 'Beli 1 Gratis 1 di Restoran B',
-    description: 'Beli 1 makanan dan dapatkan 1 makanan gratis di Restoran B.',
-    image: 'https://via.placeholder.com/150',
+    title: 'Beli 1 Gratis 1',
+    description: 'Beli pizza 1 paket Rp.100.000 lengkap dengan minumannya',
+    image: 'https://assets.tmecosys.com/image/upload/t_web600x528/img/recipe/ras/Assets/ecaeb2cc-a950-4645-a648-9137305b3287/Derivates/df977b90-193d-49d4-a59d-8dd922bcbf65.jpg',
   },
   // Tambahkan lebih banyak promo sesuai kebutuhan
 ];

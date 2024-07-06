@@ -7,6 +7,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import Beranda from './screens/Beranda';
 import Makanan from './screens/Makanan';
 import Profil from './screens/Profil';
+import Splash from './screens/Splash';
 
 const Stack = createNativeStackNavigator();
 const Tabs = createBottomTabNavigator();
@@ -45,13 +46,30 @@ const MenuTab = () => {
   );
 };
 
+const MainApp = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen
+        name="Splash"
+        component={Splash}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="MenuTab"
+        component={MenuTab}
+        options={{headerShown: false}}
+      />
+    </Stack.Navigator>
+  );
+};
+
 function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
           name="Tab"
-          component={MenuTab}
+          component={MainApp}
           options={{headerShown: false}}
         />
       </Stack.Navigator>

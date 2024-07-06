@@ -12,8 +12,10 @@ const Profile = () => {
             style={styles.profileImage}
           />
           <View>
-            <Text style={styles.profileName}>Mefinatul Mardiyah</Text>
+            <Text style={styles.profileName}>Meifinatul Mardiyah</Text>
             <Text style={styles.profileStatus}>meifinatulm@gmail.com</Text>
+            <Text style={styles.profileStatus}>Ig: meifinatulm_ </Text>
+            <Text style={styles.profileStatus}>085945430927</Text>
          
           </View>
         </View>
