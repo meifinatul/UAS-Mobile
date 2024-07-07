@@ -8,6 +8,7 @@ import Beranda from './screens/Beranda';
 import Makanan from './screens/Makanan';
 import Profil from './screens/Profil';
 import Splash from './screens/Splash';
+import Login from './screens/Login';
 
 const Stack = createNativeStackNavigator();
 const Tabs = createBottomTabNavigator();
@@ -52,6 +53,11 @@ const MainApp = () => {
       <Stack.Screen
         name="Splash"
         component={Splash}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="Login"
+        component={Login}
         options={{headerShown: false}}
       />
       <Stack.Screen

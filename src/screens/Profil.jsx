@@ -1,11 +1,17 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TouchableOpacity,
+  ScrollView,
+} from 'react-native';
 
 const Profile = () => {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>
-
         <View style={styles.profileInfo}>
           <Image
             source={require('../assets/saya.jpeg')}
@@ -14,25 +20,22 @@ const Profile = () => {
           <View>
             <Text style={styles.profileName}>Meifinatul Mardiyah</Text>
             <Text style={styles.profileStatus}>meifinatulm@gmail.com</Text>
-            <Text style={styles.profileStatus}>Ig: meifinatulm_ </Text>
             <Text style={styles.profileStatus}>085945430927</Text>
-         
           </View>
         </View>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.verificationText}>
-          Verifikasi email-mu agar kami dapat memastikan identitasmu, melindungi akunmu, dan menerima update pesanan. 
-          <Text style={styles.linkText}> Atur Sekarang</Text>
+          <Text style={styles.linkText}> Retailer </Text>
         </Text>
       </View>
 
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Pesanan Saya</Text>
+        <Text style={styles.sectionTitle}> Jumlah Pemesanan</Text>
         <View style={styles.orderStatus}>
           <TouchableOpacity style={styles.orderStatusItem}>
-            <Text>Belum Bayar</Text>
+            <Text>Pesanan</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.orderStatusItem}>
             <Text>Dikemas</Text>
@@ -50,32 +53,33 @@ const Profile = () => {
         <Text style={styles.sectionTitle}>Dompet Saya</Text>
         <View style={styles.wallet}>
           <TouchableOpacity style={styles.walletItem}>
-            <Text>ShopeePay</Text>
+            <Text style={styles.textwallet}>Shopee Food</Text>
+            <Text style={styles.textwallet}>Shopee Food</Text>
             <Text>Pakai ShopeePay</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.walletItem}>
-            <Text>Koin Shopee</Text>
-            <Text>Koin Gratis</Text>
+            <Text style={styles.textwallet}>Koin Shopee</Text>
+            <Text style={styles.textwallet}>Koin Gratis</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.walletItem}>
-            <Text>SPayLater</Text>
-            <Text>Diskon s/d 30RB</Text>
+            <Text style={styles.textwallet}>SPayLater</Text>
+            <Text style={styles.textwallet}>Diskon s/d 30RB</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.walletItem}>
-            <Text>SPinjam</Text>
-            <Text>Limit s/d 50JT & Voucher</Text>
+            <Text style={styles.textwallet}>SPinjam</Text>
+            <Text style={styles.textwallet}>Limit s/d 50JT & Voucher</Text>
           </TouchableOpacity>
         </View>
       </View>
 
       <View style={styles.section}>
         <TouchableOpacity style={styles.option}>
-          <Text>Download ShopeePay</Text>
-          <Text>Saldo Gratis 77RB</Text>
+          <Text style={styles.textwallet}>Download Shopee Food</Text>
+          <Text style={styles.textwallet}>Saldo Gratis 77RB</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.option}>
-          <Text>SeaBank</Text>
-          <Text>Transfer Gratis</Text>
+          <Text style={styles.textwallet}>SeaBank</Text>
+          <Text style={styles.textwallet}>Transfer Gratis</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.option}>
           <Text>Asuransi Saya</Text>
@@ -94,7 +98,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'pink',
   },
   header: {
-    backgroundColor: '#FF5722',
+    backgroundColor: '#ADD8E6',
     paddingVertical: 20,
     paddingHorizontal: 16,
   },
@@ -145,10 +149,14 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   verificationText: {
-    backgroundColor: '#f9f9f9',
+    backgroundColor: 'white',
+    color: 'black',
     padding: 10,
     borderRadius: 5,
     fontSize: 14,
+  },
+  textwallet: {
+    color: 'black',
   },
   linkText: {
     color: '#FF5722',
