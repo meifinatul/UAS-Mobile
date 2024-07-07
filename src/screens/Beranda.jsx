@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'white',
     padding: 16,
   },
   header: {
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
   dishItem: {
     flexDirection: 'row',
     marginBottom: 16,
-    backgroundColor: '#f8f8f8',
+    backgroundColor: 'black',
     borderRadius: 5,
     overflow: 'hidden',
   },

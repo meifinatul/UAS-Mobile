@@ -50,7 +50,7 @@ import {
       justifyContent: 'center',
       alignItems: 'center',
       padding: 16,
-      backgroundColor: 'blue',
+      backgroundColor: '#3498db',
     },
     title: {
       fontSize: 24,

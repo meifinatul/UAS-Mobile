@@ -32,7 +32,7 @@ const Profile = () => {
       </View>
 
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}> Jumlah Pemesanan</Text>
+        <Text style={styles.sectionTitle}> Jumlah Pesanan</Text>
         <View style={styles.orderStatus}>
           <TouchableOpacity style={styles.orderStatusItem}>
             <Text>Pesanan</Text>

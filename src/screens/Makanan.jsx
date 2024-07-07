@@ -52,7 +52,7 @@ export default Promo;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'lightblue',
     padding: 16,
   },
   promoList: {

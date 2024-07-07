@@ -20,12 +20,12 @@ export default Splash;
 const styles = StyleSheet.create({
   bg: {
     flex: 1,
-    backgroundColor: 'black',
+    backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
   },
   logo: {
     width: 200,
-    height: 110,
+    height: 200,
   },
 });
